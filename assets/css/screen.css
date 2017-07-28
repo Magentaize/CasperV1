@@ -1383,11 +1383,11 @@ body.page-template .post-title {
     height: 2px;
     border: none;
     color: #e5347c;
-    background: transparent;
+    background: rgba(0,0,0,.1);
 }
 
 .progress::-webkit-progress-bar {
-    background-color: transparent;
+    background-color: rgba(0,0,0,.1);
 }
 
 .progress::-webkit-progress-value {
