@@ -122,6 +122,8 @@
 
 {{/post}}
 
+{{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
+{{#contentFor "scripts"}}
 <script>
 
 $(document).ready(function () {
@@ -176,3 +178,4 @@ $(document).ready(function () {
     update();
 });
 </script>
+{{/contentFor}}
