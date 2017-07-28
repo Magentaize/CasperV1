@@ -1188,6 +1188,13 @@ body.page-template .post-title {
     transform: translateX(-50%);
 }
 
+.post-cc-copyright{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 1rem 0 0 0;
+}
+
 .footnotes {
     font-style: italic;
     font-size: 1.3rem;
@@ -1210,7 +1217,7 @@ body.page-template .post-title {
 /* The author credit area after the post */
 .post-footer {
     position: relative;
-    margin: 6rem 0 0 0;
+    margin: 5rem 0 0 0;
     padding: 3rem 0 0 0;
     border-top: #EBF2F6 1px solid;
 }
