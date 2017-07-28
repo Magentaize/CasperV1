@@ -1384,7 +1384,7 @@ body.page-template .post-title {
     height: 2px;
     border: none;
     color: #e5347c;
-    background: rgba(0,0,0,0);
+    background: rgba(255,255,255,.1);
 }
 
 .progress::-webkit-progress-bar {
