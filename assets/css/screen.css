@@ -1316,6 +1316,7 @@ body.page-template .post-title {
 }
 
 .floating-header-logo {
+    padding: 2px;
     overflow: hidden;
     margin: 0 0 0 20px;
     font-size: 1.6rem;
@@ -1383,11 +1384,11 @@ body.page-template .post-title {
     height: 2px;
     border: none;
     color: #e5347c;
-    background: rgba(0,0,0,.1);
+    background: rgba(0,0,0,0);
 }
 
 .progress::-webkit-progress-bar {
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,0);
 }
 
 .progress::-webkit-progress-value {
