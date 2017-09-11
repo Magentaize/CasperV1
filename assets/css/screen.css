@@ -1395,6 +1395,10 @@ body.page-template .post-title {
 }
 
 .progress::-webkit-progress-bar {
+    background-color: rgba(0,0,0,0);
+ }
+
+ .progress::-webkit-progress-value {
     background-color: #e5347c;
  }
  
