@@ -344,17 +344,17 @@ mark {
 }
 
 code, tt {
+    color: #ffffff;
     padding: 1px 3px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
     white-space: pre-wrap;
-    border: #E3EDF3 1px solid;
-    background: #1E1E1E;
+    /* border: #000000 1px solid; */
+    background: #424242;
     border-radius: 2px;
     -webkit-font-feature-settings: "liga" 0;
     -moz-font-feature-settings: "liga" 0;
     font-feature-settings: "liga" 0;
-    color: #DCDCDC;
 }
 
 pre {
@@ -1178,7 +1178,7 @@ body.page-template .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 100%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
